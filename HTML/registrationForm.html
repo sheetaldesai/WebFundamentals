@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Registration Form</title>
+</head>
+<body>
+   <h2>My Registration Form</h2> 
+   <form action="process.php" method="post">
+   <p>
+        First Name:
+        <input type="text" id="first_name" name="first_name">
+   </p>
+   <p>
+        Last Name:
+        <input type="text" id="last_name" name="last_name">
+    </p>
+    <p>
+        Email:
+        <input type="text" id="email" name="email">
+    </p>
+    <p>
+        Password:
+        <input type="password" id="password" name="password">
+    </p>
+    <p>
+        Confirm Password:
+        <input type="password" id="confirm_password" name="confirm_password">
+    </p>
+    <p>
+        Birthdate:
+        <input type="date" id="bday" name="bday">
+    </p>
+    <p>
+        Male
+        <input type="radio" id="male" name="gender" value="male">
+       
+        Female
+        <input type="radio" name="gender" value="female">
+
+        Other
+        <input type="radio" name="gender" value="other">
+    </p>
+    
+    A short description about yourself:
+    <p>
+        <textarea name="description"></textarea>
+    </p>
+    <p>
+        Select your favorite language:
+        <select>
+            <option value="js">JavaScript</option>
+            <option value="C#">C#</option>
+            <option value="Python">Python</option>
+            <option value="C">C</option>
+        </select>
+    </p>
+    <p>
+        <input type="submit" value="Submit">
+    </p>
+</form>
+
+</body>
+</html>
