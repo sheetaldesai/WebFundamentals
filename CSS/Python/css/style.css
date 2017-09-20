@@ -1,0 +1,193 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana,sans-serif;
+    font-size: 14px;
+    color: #DCDCDC;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+  
+li a {
+    color: #DCDCDC;
+}
+
+#container {
+    width: 970px;
+    margin: auto;
+    font-family: Verdana,sans-serif;
+} 
+
+#header {
+    background-color: #265175;
+}
+
+#textSize {
+    text-align: right;
+    margin: 0 60px;
+}
+#textSize ul { 
+    font-size: 12px;
+    padding-top: 10px;
+}
+#textSize li {
+    display: inline;
+}
+
+#textSize li a {
+    color: #F9CF44;
+}
+
+#icon {
+    display: inline-block;
+}
+
+#icon img{
+    padding: 0;
+    width: 300px;
+    margin-left: 30px;
+}
+
+#searchBar {
+    display: inline-block;
+    height: 60px;
+    padding: 10px 40px;
+    background-color: #444444;
+    border-radius: 10px;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 350px;
+}
+
+#searchBar input[type="text"]{
+    height: 30px;
+    width: 140px;
+    text-align: center;
+}
+#searchBar input[type="button"]{
+    background-color: #265175;
+    height: 30px;
+    width: 40px;
+    border-radius: 5px;
+    color: #DCDCDC;
+}
+
+#navBarWrapper {
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 70px;
+}
+#navBar {
+    height: 40px;
+    background-color: #4A7FAB;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#navBar ul {
+    padding-top: 10px;
+}
+
+#navBar li {
+    display: inline;
+    padding: 0 20px;
+    
+}
+
+#navBar li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#headerLeftBox {
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+#headerLeftBox li {
+    padding: 5px 0;
+}
+
+#headerLeftBox li:before {
+    content: ">>";
+    font-size: 5px;
+    padding-right: 5px;
+    color: #F9CF44;
+}
+#headerRightBox {
+    display: inline-block;
+    text-align: center;
+    width: 600px;
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+.headerQuotes {
+    font-style: italic;
+    color: #F9CF44;
+    font-size: 18px;
+}
+
+#zenPython {
+    font-size: 18px;
+}
+
+#mainContent {
+   
+    background-color: white;
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+
+.mainContentBox {
+    border-top: 3px solid #75A8D3;
+    text-align: center;
+    width: 300px;
+    margin: 15px 40px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mainContentBox li
+{
+    padding-bottom: 10px;
+}
+.mainContentBox  a {
+    color: #8BBEE9;
+    text-decoration: none;
+}
+
+#footer {
+    background-color: #265175;
+    height: 100px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    
+}
+
+#footer li {
+    display: inline;
+    padding: 15px;
+}
+
+#footer li a {
+    text-decoration: none;
+    color: #DCDCDC;
+}
+
+#footer p {
+    font-size: 8px;
+}
