@@ -1,0 +1,140 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    font-size: 14px;
+    
+    
+}
+
+#wrapper {
+    background-color: #F7F7F7;
+    width: 970px;
+    margin: auto;
+} 
+
+#header {
+    padding: 15px;
+
+}
+
+div#header h1 {
+    font-family: "Comic Sans MS";
+    display: inline-block;
+    margin: 0;
+}
+#header h2 {
+    display: inline-block;
+    margin: 0 0 0 450px;
+    
+}
+
+#container {
+    background-color: #5D4852;
+    color: #F7F7F7;
+    padding: 20px;
+}
+
+#profileImage {
+   border: 3px solid #C0C0C0;
+   width: 450px;
+   display: inline-block;
+   vertical-align: top;
+   margin-right: 15px;
+}
+
+#about {
+    height: 302px;
+    width: 450px;
+    
+}
+
+#about p {
+    line-height: 120%;
+    font-size: 16px;
+}
+.title {
+    height: 30px;
+    color: #FBFDFE;
+    font-size: 18px;
+    background-color: grey;
+    background: linear-gradient(to bottom, #AAAAB0, #878593); 
+    margin: 0;
+    padding: 17px 10px 10px 10px;
+}
+
+.contentBox {
+    display: inline-block;
+    vertical-align: top;
+    background: linear-gradient(to right, #ffffff, #dbccda); 
+    color: black;
+    padding: 0;
+    width: 296px;
+}
+
+
+
+.padding {
+    padding: 10px;
+}
+
+#cols {
+    margin-top: 20px;
+}
+
+.colImage {
+    max-width: 100%;
+}
+
+#cols p {
+    padding: 10px;
+}
+
+#cols ul {
+    list-style-type: none;
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+
+#cols li {
+    display: inline;
+    padding: 10px;
+}
+
+.techImage {
+    display: inline;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+/* #col2 {
+    margin: 0 15px;
+} */
+
+#cols div:nth-child(2){
+    margin: 0 15px;
+}
+
+#footer {
+    text-align: center;
+    padding: 10px;
+}
+#footer ul {
+    list-style-type: none;
+}
+
+#footer li {
+    display: inline;
+}
+
+#footer img {
+    width: 17px;
+    height: 17px;
+    margin: 0 3px;
+}
+
+#footer li a {
+    padding-bottom: 3px;
+    color: black;
+}
